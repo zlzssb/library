@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+/*css预设*/
+
+*{margin:0; padding:0;}/*将所有HTML元素的默认边距清0*/
+html,body{font-size:12px; font-family:"simsun","arial"; color:#000; background:#FFF;}/*对HTML元素中的字体、颜色、背景色进行初始设置*/
+ul li,ol li{list-style:none;}/*将列表标签的默认样式清除*/
+a{text-decoration:none;outline:none; blr:expression(this.onFocus=this.blur());}/*将超链接的下划线去掉以及在ie6中点击出现的虚线框去掉*/
+img{border:none;}/*图片的默认边框去掉 */
+table{border-collapse:collapse;border-spacing:0;}
+caption,th,td{font-weight:normal;text-align:left;}
+input,textarea,select,button{font-size:100%;font-family:inherit;margin:0;padding:0;}
+label,button{cursor:pointer}
+textarea{white-space:pre;resize:none;border:1px solid #ececec;}
+article,aside,figcaption,figure,footer,header,hgroup,nav,section,summary{ display: block;}
+
+/*清楚浮动*/
+.clearfix:after{content:""; display:block; clear:both; height:0; line-height:0; visibility:hidden;}
+.clearfix{zoom:1;}/*解决ie6的兼容性问题*/
+.fl{float: left;}
+.fr{float: right;}
+
+
+
+.all{
+	width: 754px;
+	margin: 50px auto;
+}
+
+.head h2{
+	text-align: center;
+	font-size: 30px;
+	color: #68757b;
+	margin: 12px 0px;
+}
+.head h3{
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+	color: #ababab;
+	line-height: 22px;
+}
+.head nav{
+	height: 35px;
+	line-height: 35px;
+	background: url(../img/navbg.png);
+	padding-left: 27px;
+}
+.head nav a{
+	color: #e4ebf3;
+	font-size: 18px;
+	font-weight: bold;
+	margin-right: 33px;
+}
+.content{
+	padding:10px;
+}
+/*.leftcon{
+	width: 540px;
+}*/
+.box{
+	padding:10px;
+	width: 520px;
+	height: 134px;
+	border: 1px solid #f6904e;
+}
+.box header{
+	font-size: 14px;
+	font-weight: bold;
+	color: #646564;
+	border-bottom: 1px dashed #f6904e;
+	line-height: 38px;
+	height: 38px;
+}
+.box article{
+	border-bottom: 1px solid #f6904e;
+	line-height: 18px;
+	padding: 15px 0px;
+	color: #303030;
+}
+.box p{
+	color: #868686;
+	line-height: 28px;
+}
+.mb{
+	margin-bottom: 10px;
+}
+.rightcon{
+	background: #e4e4e4;
+	width: 120px;
+	padding: 22px;
+	border: 1px solid #d0d0d0;
+}
+.rightcon header{
+	font-size: 18px;
+	color: #575757;
+}
+.rightcon  p{
+	margin-top: 6px;
+	color: #75666c;
+	font-size: 12px;
+	line-height: 22px;
+}
+.foot{
+	text-align: center;
+	border-top: 1px solid #f6904e;
+	line-height: 36px;
+}
+
+
+
+
+
+
+
+
+
